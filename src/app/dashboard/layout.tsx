@@ -14,7 +14,7 @@ export default function DashboardLayout( {children} : {children: React.ReactNode
                 </button>
             </div>
                 
-            <div className="container h-screen items-center mt-2 rounded-xl shadow-md bg-slate-50">
+            <div className="container h-screen items-center mt-2 rounded-xl shadow-md bg-slate-300">
                 {children}
             </div>
         </div>

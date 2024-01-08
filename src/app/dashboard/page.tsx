@@ -1,7 +1,11 @@
+import DashboardForm from "@/components/Form/page";
+import DashboardTable from "@/components/Table/page";
+
 export default function Dashboard(){
     return(
-        <>
-            <h1>outs</h1>
-        </>
+        <main className="flex flex-col">
+            <DashboardForm/>
+            <DashboardTable />
+        </main>
     )
 }
