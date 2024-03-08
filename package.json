@@ -9,10 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.34",
+    "antd": "^5.2.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "react-toastify": "^9.1.3"
+    "react-icons": "^5.0.1",
+    "react-number-format": "^5.3.3",
+    "react-toastify": "^9.1.3",
+    "sass": "^1.71.1",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@types/node": "^20",

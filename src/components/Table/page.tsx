@@ -1,3 +1,4 @@
+import { FaEdit, FaTrash } from "react-icons/fa"
 export default function DashboardTable(){
     return(
         <div className=" w-full pr-24 pl-24 ">
@@ -38,8 +39,8 @@ export default function DashboardTable(){
                         <td className="rounded-md p-2 pl-3 text-center">R$ 210,00</td>
                         <td className="rounded-md p-2 text-center">expense</td>
                         <td className="text-center flex justify-center gap-1 pt-2 pb-2 rounded-md">
-                            <button className="w-8 h-8 rounded bg-green-500 font-light text-slate-100">x</button>
-                            <button className="w-8 h-8 rounded bg-red-500 font-light text-slate-100">-</button>
+                            <button className="w-8 h-8 rounded bg-green-500 font-light text-slate-100"><FaTrash /></button>
+                            <button className="w-8 h-8 rounded bg-red-500 font-light text-slate-100"><FaEdit /></button>
                         </td>
                     </tr>
                     <tr>

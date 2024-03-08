@@ -1,0 +1,28 @@
+.btn-animate{
+    transition: 1.2s linear all;
+    margin: 3px;
+}
+.btn-animate:hover{
+    transform: scale(1.2);
+    margin: 3px;
+    transform: rotate(360deg);
+}
+
+.btn-animate-hover{
+    transition: .7s linear all;
+}
+.btn-animate-hover:hover{
+    transform: scale(1.1);
+}
+/* 
+.td-animate{
+    cursor: pointer;
+    transition: .4s;
+}
+
+.td-animate:hover{
+    transform: scaleY(2.2);
+
+    font-weight: 800;
+    letter-spacing: 2px;
+} */
